@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -27,7 +26,7 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -35,9 +34,9 @@ projects:
   # medium: @your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
-  # youtube: your_username
-  # vk: your_username
+  twitter: ellcontreras
+# youtube: your_username
+# vk: your_username
 
 topics:
   - name: CSS
